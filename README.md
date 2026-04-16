@@ -36,6 +36,11 @@ Unity Version: Unity 2019.4f19
 2) Ensure `UMP_SUPPORTED` keyword is not defined if you don't have UniversalMediaPlayer in the repo
 3) Go Build -> Windows
 
+# Reporting bugs
+For reporting bugs, we recommend doing so on the main Resonite repo here: https://github.com/Yellow-Dog-Man/Resonite-Issues/issues
+
+We monitor this repo more often for issues and some bugs can also be FrooxEngine-side, requiring more complex approach.
+
 # Contributing
 If you'd like to contribute to the Unity official renderer, feel free! We welcome contributions that help improve the experience for everyone, provided that they:
 
