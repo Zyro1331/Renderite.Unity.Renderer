@@ -29,6 +29,13 @@ Making this repository open source has several goals:
     - We want to encourage experimenting & tinkering!
     - The goal of the official renderer is long term content compatibilty
 
+## What is this not?
+- Support for custom shaders
+    - Custom shaders will require us to move away from Unity completely - it's not possible to compile and load shaders dynamically with Unity in a reasonable way
+    - Shader loading is not controlled by the renderer project, but by FrooxEngine side. The renderer will only load the shaders it's been given.
+- SDK for building Resonite content with Unity
+    - Unity SDK is a completely separate project available here: https://github.com/Yellow-Dog-Man/Resonite.UnitySDK
+
 # Building
 Unity Version: Unity 2019.4f19
 
